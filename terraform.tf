@@ -2,14 +2,15 @@
 # SPDX-License-Identifier: MPL-2.0
 
 terraform {
-
+/*
   cloud {
-    organization = "organization-name"
+    organization = "David-Affiliate-Marketing"
 
     workspaces {
       name = "learn-terraform"
     }
   }
+*/
 
   required_providers {
     aws = {
@@ -18,5 +19,5 @@ terraform {
     }
   }
 
-  required_version = "~> 1.2"
+  required_version = ">= 1.2"
 }
